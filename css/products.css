@@ -1,0 +1,51 @@
+.row-2 {
+    margin: 100px auto 50px;
+}
+
+select {
+    border: 1px solid #ff523b;
+    padding: 8px;
+    font-family: Poppins, sans-serif;
+}
+
+select:focus {
+    outline: none;
+}
+
+.product__top-title {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.page-btn {
+    margin: 0 auto 80px;
+}
+
+.page-btn span {
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    line-height: 40px;
+    transition: .3s ease-out;
+    cursor: pointer;
+}
+
+.page-btn span:hover {
+    background: #ff523b;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px){
+    .row-2{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .product__top-title {
+        margin-bottom: 20px;
+    }
+}
